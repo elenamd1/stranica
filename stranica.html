@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8" />
+<title>Dinosauri - Moj Omiljeni Dinosaur</title>
+<style>
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: rgb(204, 246, 204);
+    color: #000000; 
+    line-height: 1.5;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+  }
+  h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #111827;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  img.dino-icon {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  .card {
+    background: #e7d0e3;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px 30px;
+    text-align: left;
+  }
+  h2 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #111827;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  ol {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0;
+  }
+  li {
+    margin-bottom: 30px; 
+  }
+  li.favorite {
+    font-weight: 700;
+    color: #7c3aed;
+  }
+
+  .dino-container {
+    border: 2px solid #7c3aed;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-top: 8px;
+    color: #111827;
+    font-size: 16px;
+    text-align: center; 
+  }
+  .dino-container img.dinosaur {
+    display: block; 
+    margin: 10px auto 0; 
+    width: 70%; 
+    max-width: 200px;
+    border-radius: 5px; 
+  }
+  
+  li.favorite .dino-container {
+    color: #7c3aed;
+    border-color: #7c3aed; 
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <img src="jl.png" alt="Dinosaur Icon" class="dino-icon" />
+    <h1>Dinosauri</h1>
+    <p>Dinosauri su fascinantne drevne životinje koje su živjele prije mnogo milijuna godina.<br />
+       Moji omiljeni dinosauri su spinosaurus, velociraptor i triceratops.</p>
+    <div class="card">
+      <h2>Top 3 dinosauri</h2>
+      <ol>
+        <li class="favorite">
+          Spinosaurus - omiljeni
+          <div class="dino-container">
+            Spinosaurus je bio najveći mesožder među dinosaurima, poznat po svojoj jedrenjači na leđima i poluvodenom načinu života.
+            <img src="spin.png" alt="Spinosaurus" class="dinosaur" />
+          </div>
+        </li>
+        <li>
+          Velociraptor
+          <div class="dino-container">
+            Velociraptor je bio brz i inteligentan predator, poznat po svom oštrom kljunu i lovu u grupama.
+            <img src="raptor.png" alt="Velociraptor" class="dinosaur" />
+          </div>
+        </li>
+        <li>
+          Triceratops
+          <div class="dino-container">
+            Triceratops je bio biljojed s tri velika roga na glavi i zaštitnim štitom.
+            <img src="tric.jpg" alt="Triceratops" class="dinosaur" />
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</body>
+</html>
